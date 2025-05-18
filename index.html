@@ -1,0 +1,1516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourly - Travel agancy</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">+01 (123) 4567 90</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" alt="Tourly logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Journey to explore world</h2>
+
+          <p class="hero-text">
+            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
+            voluptatibus habitant?
+            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Book now</button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Search Destination*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">Uncover place</p>
+
+          <h2 class="h2 section-title">Popular destination</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-1.jpg" alt="San miguel, italy" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Italy</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">San miguel</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-2.jpg" alt="Burj khalifa, dubai" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Dubai</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Burj khalifa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/popular-3.jpg" alt="Kyoto temple, japan" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Japan</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Kyoto temple</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Fusce hic augue velit wisi ips quibusdam pariatur, iusto.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">More destintion</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Packeges</p>
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-1.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Experience The Great Holiday On Beach</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $750
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Summer Holiday To The Oxolotan River</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $520
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-3.jpg" alt="Santorini Island's Weekend Vacation" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Santorini Island's Weekend Vacation</h3>
+
+                  <p class="card-text">
+                    Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,
+                    cras, aspernatur.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Malaysia</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $660
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+              laudantium. Sit ornare
+              mollitia tenetur, aptent.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Contact Us !</button>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PACKING CHECKLIST
+      -->
+      <section class="packing-checklist" id="packing">
+        <div class="container">
+          <p class="section-subtitle">Be Prepared</p>
+          <h2 class="h2 section-title">Packing Checklist</h2>
+          
+          <div class="checklist-container">
+            <div class="category">
+              <div class="category-header">
+                <img src="./assets/images/packing/essentials.jpg" alt="Travel Essentials" class="category-image">
+                <h3>Essentials</h3>
+              </div>
+              <ul class="checklist">
+                <li>
+                  <input type="checkbox" id="passport">
+                  <label for="passport">
+                    <img src="./assets/images/packing/passport.png" alt="Passport" class="item-icon">
+                    Passport
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="visa">
+                  <label for="visa">
+                    <img src="./assets/images/packing/visa.png" alt="Visa" class="item-icon">
+                    Visa
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="tickets">
+                  <label for="tickets">
+                    <img src="./assets/images/packing/tickets.png" alt="Travel Tickets" class="item-icon">
+                    Travel Tickets
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="insurance">
+                  <label for="insurance">
+                    <img src="./assets/images/packing/insurance.png" alt="Travel Insurance" class="item-icon">
+                    Travel Insurance
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <div class="category-header">
+                <img src="./assets/images/packing/clothing.jpg" alt="Clothing" class="category-image">
+                <h3>Clothing</h3>
+              </div>
+              <ul class="checklist">
+                <li>
+                  <input type="checkbox" id="shirts">
+                  <label for="shirts">
+                    <img src="./assets/images/packing/tshirt.png" alt="T-Shirts" class="item-icon">
+                    T-Shirts
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="pants">
+                  <label for="pants">
+                    <img src="./assets/images/packing/pants.png" alt="Pants/Shorts" class="item-icon">
+                    Pants/Shorts
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="swimwear">
+                  <label for="swimwear">
+                    <img src="./assets/images/packing/swimwear.png" alt="Swimwear" class="item-icon">
+                    Swimwear
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="jacket">
+                  <label for="jacket">
+                    <img src="./assets/images/packing/jacket.png" alt="Jacket" class="item-icon">
+                    Jacket
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <div class="category-header">
+                <img src="./assets/images/packing/electronics.jpg" alt="Electronics" class="category-image">
+                <h3>Electronics</h3>
+              </div>
+              <ul class="checklist">
+                <li>
+                  <input type="checkbox" id="charger">
+                  <label for="charger">
+                    <img src="./assets/images/packing/charger.png" alt="Charger" class="item-icon">
+                    Charger
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="camera">
+                  <label for="camera">
+                    <img src="./assets/images/packing/camera.png" alt="Camera" class="item-icon">
+                    Camera
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="powerbank">
+                  <label for="powerbank">
+                    <img src="./assets/images/packing/powerbank.png" alt="Power Bank" class="item-icon">
+                    Power Bank
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="adapter">
+                  <label for="adapter">
+                    <img src="./assets/images/packing/adapter.png" alt="Travel Adapter" class="item-icon">
+                    Travel Adapter
+                  </label>
+                </li>
+              </ul>
+            </div>
+
+            <div class="category">
+              <div class="category-header">
+                <img src="./assets/images/packing/toiletries.jpg" alt="Toiletries" class="category-image">
+                <h3>Toiletries</h3>
+              </div>
+              <ul class="checklist">
+                <li>
+                  <input type="checkbox" id="toothbrush">
+                  <label for="toothbrush">
+                    <img src="./assets/images/packing/toothbrush.png" alt="Toothbrush" class="item-icon">
+                    Toothbrush
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="shampoo">
+                  <label for="shampoo">
+                    <img src="./assets/images/packing/shampoo.png" alt="Shampoo" class="item-icon">
+                    Shampoo
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="sunscreen">
+                  <label for="sunscreen">
+                    <img src="./assets/images/packing/sunscreen.png" alt="Sunscreen" class="item-icon">
+                    Sunscreen
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" id="firstaid">
+                  <label for="firstaid">
+                    <img src="./assets/images/packing/firstaid.png" alt="First Aid Kit" class="item-icon">
+                    First Aid Kit
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #DESTINATION LIST
+      -->
+      <section class="destination-list" id="destinations">
+        <div class="container">
+          <p class="section-subtitle">Explore</p>
+          <h2 class="h2 section-title">Destinations</h2>
+          
+          <div class="filter-container" role="group" aria-label="Filter destinations by region">
+            <button class="filter-btn active" data-region="all" aria-pressed="true">All Regions</button>
+            <button class="filter-btn" data-region="europe" aria-pressed="false">Europe</button>
+            <button class="filter-btn" data-region="asia" aria-pressed="false">Asia</button>
+            <button class="filter-btn" data-region="americas" aria-pressed="false">Americas</button>
+            <button class="filter-btn" data-region="africa" aria-pressed="false">Africa</button>
+            <button class="filter-btn" data-region="oceania" aria-pressed="false">Oceania</button>
+          </div>
+
+          <div class="destination-grid">
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/paris.jpg" alt="Paris, France" class="destination-image">
+              <span class="emoji" role="img" aria-label="France flag">🇫🇷</span>
+              <h3>Paris</h3>
+              <p>The City of Light</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 15°C</span>
+              </div>
+            </div>
+
+            <div class="destination-card" data-region="asia">
+              <img src="./assets/images/destinations/tokyo.jpg" alt="Tokyo, Japan" class="destination-image">
+              <span class="emoji" role="img" aria-label="Japan flag">🇯🇵</span>
+              <h3>Tokyo</h3>
+              <p>Modern Meets Traditional</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Fall</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 18°C</span>
+              </div>
+            </div>
+
+            <div class="destination-card" data-region="americas">
+              <img src="./assets/images/destinations/newyork.jpg" alt="New York, USA" class="destination-image">
+              <span class="emoji" role="img" aria-label="United States flag">🇺🇸</span>
+              <h3>New York</h3>
+              <p>The Big Apple</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Fall</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 12°C</span>
+              </div>
+            </div>
+
+            <div class="destination-card" data-region="africa">
+              <img src="./assets/images/destinations/capetown.jpg" alt="Cape Town, South Africa" class="destination-image">
+              <span class="emoji" role="img" aria-label="South Africa flag">🇿🇦</span>
+              <h3>Cape Town</h3>
+              <p>Mother City</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Summer</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 20°C</span>
+              </div>
+            </div>
+
+            <div class="destination-card" data-region="oceania">
+              <img src="./assets/images/destinations/sydney.jpg" alt="Sydney, Australia" class="destination-image">
+              <span class="emoji" role="img" aria-label="Australia flag">🇦🇺</span>
+              <h3>Sydney</h3>
+              <p>Harbour City</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 22°C</span>
+              </div>
+            </div>
+
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/rome.jpg" alt="Rome, Italy" class="destination-image">
+              <span class="emoji" role="img" aria-label="Italy flag">🇮🇹</span>
+              <h3>Rome</h3>
+              <p>Eternal City</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 16°C</span>
+              </div>
+            </div>
+
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/london.jpg" alt="London, UK" class="destination-image">
+              <span class="emoji" role="img" aria-label="UK flag">🇬🇧</span>
+              <h3>London</h3>
+              <p>The Old Smoke</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Summer</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 17°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/barcelona.jpg" alt="Barcelona, Spain" class="destination-image">
+              <span class="emoji" role="img" aria-label="Spain flag">🇪🇸</span>
+              <h3>Barcelona</h3>
+              <p>Gaudí's Playground</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 19°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/berlin.jpg" alt="Berlin, Germany" class="destination-image">
+              <span class="emoji" role="img" aria-label="Germany flag">🇩🇪</span>
+              <h3>Berlin</h3>
+              <p>City of Freedom</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Fall</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 13°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/athens.jpg" alt="Athens, Greece" class="destination-image">
+              <span class="emoji" role="img" aria-label="Greece flag">🇬🇷</span>
+              <h3>Athens</h3>
+              <p>Cradle of Civilization</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 20°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="asia">
+              <img src="./assets/images/destinations/bangkok.jpg" alt="Bangkok, Thailand" class="destination-image">
+              <span class="emoji" role="img" aria-label="Thailand flag">🇹🇭</span>
+              <h3>Bangkok</h3>
+              <p>City of Angels</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Winter</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 28°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="asia">
+              <img src="./assets/images/destinations/singapore.jpg" alt="Singapore" class="destination-image">
+              <span class="emoji" role="img" aria-label="Singapore flag">🇸🇬</span>
+              <h3>Singapore</h3>
+              <p>The Lion City</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 27°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="asia">
+              <img src="./assets/images/destinations/istanbul.jpg" alt="Istanbul, Turkey" class="destination-image">
+              <span class="emoji" role="img" aria-label="Turkey flag">🇹🇷</span>
+              <h3>Istanbul</h3>
+              <p>Where East Meets West</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 18°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="americas">
+              <img src="./assets/images/destinations/rio.jpg" alt="Rio de Janeiro, Brazil" class="destination-image">
+              <span class="emoji" role="img" aria-label="Brazil flag">🇧🇷</span>
+              <h3>Rio de Janeiro</h3>
+              <p>Marvelous City</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Summer</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 26°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="americas">
+              <img src="./assets/images/destinations/toronto.jpg" alt="Toronto, Canada" class="destination-image">
+              <span class="emoji" role="img" aria-label="Canada flag">🇨🇦</span>
+              <h3>Toronto</h3>
+              <p>The Six</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Fall</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 10°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="americas">
+              <img src="./assets/images/destinations/losangeles.jpg" alt="Los Angeles, USA" class="destination-image">
+              <span class="emoji" role="img" aria-label="USA flag">🇺🇸</span>
+              <h3>Los Angeles</h3>
+              <p>City of Angels</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Spring</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 19°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="africa">
+              <img src="./assets/images/destinations/cairo.jpg" alt="Cairo, Egypt" class="destination-image">
+              <span class="emoji" role="img" aria-label="Egypt flag">🇪🇬</span>
+              <h3>Cairo</h3>
+              <p>City of a Thousand Minarets</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Fall</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 24°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="europe">
+              <img src="./assets/images/destinations/moscow.jpg" alt="Moscow, Russia" class="destination-image">
+              <span class="emoji" role="img" aria-label="Russia flag">🇷🇺</span>
+              <h3>Moscow</h3>
+              <p>The Third Rome</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Summer</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 19°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="oceania">
+              <img src="./assets/images/destinations/auckland.jpg" alt="Auckland, New Zealand" class="destination-image">
+              <span class="emoji" role="img" aria-label="New Zealand flag">🇳🇿</span>
+              <h3>Auckland</h3>
+              <p>City of Sails</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Summer</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 23°C</span>
+              </div>
+            </div>
+            <div class="destination-card" data-region="asia">
+              <img src="./assets/images/destinations/dubai.jpg" alt="Dubai, UAE" class="destination-image">
+              <span class="emoji" role="img" aria-label="UAE flag">🇦🇪</span>
+              <h3>Dubai</h3>
+              <p>City of Gold</p>
+              <div class="destination-info">
+                <span class="info-item"><ion-icon name="time-outline"></ion-icon> Best time: Winter</span>
+                <span class="info-item"><ion-icon name="thermometer-outline"></ion-icon> Avg. temp: 25°C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #CURRENCY CONVERTER
+      -->
+      <section class="currency-converter" id="converter">
+        <div class="container">
+          <p class="section-subtitle">Plan Your Budget</p>
+          <h2 class="h2 section-title">Currency Converter</h2>
+          
+          <div class="converter-container">
+            <div class="converter-input">
+              <input type="number" id="amount" placeholder="Enter amount" aria-label="Amount to convert">
+              <select id="from-currency" aria-label="Convert from currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+              </select>
+            </div>
+            <div class="converter-output">
+              <input type="number" id="converted-amount" readonly placeholder="Converted amount" aria-label="Converted amount">
+              <select id="to-currency" aria-label="Convert to currency">
+                <option value="EUR">EUR</option>
+                <option value="USD">USD</option>
+                <option value="GBP">GBP</option>
+                <option value="JPY">JPY</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #TRIP COUNTDOWN
+      -->
+      <section class="trip-countdown" id="countdown">
+        <div class="container">
+          <p class="section-subtitle">Time Until Adventure</p>
+          <h2 class="h2 section-title">Trip Countdown</h2>
+          
+          <div class="countdown-container">
+            <div class="countdown-item">
+              <span class="days">00</span>
+              <span class="label">Days</span>
+            </div>
+            <div class="countdown-item">
+              <span class="hours">00</span>
+              <span class="label">Hours</span>
+            </div>
+            <div class="countdown-item">
+              <span class="minutes">00</span>
+              <span class="label">Minutes</span>
+            </div>
+          </div>
+
+          <div class="daily-planner">
+            <h3>Daily Planner</h3>
+            <div class="planner-days">
+              <div class="planner-day" data-image="./assets/images/planner/day1.jpg">
+                <h4>Day 1</h4>
+                <div class="planner-hover-image"></div>
+                <textarea placeholder="Plan your activities for Day 1..."></textarea>
+              </div>
+              <div class="planner-day" data-image="./assets/images/planner/day2.jpg">
+                <h4>Day 2</h4>
+                <div class="planner-hover-image"></div>
+                <textarea placeholder="Plan your activities for Day 2..."></textarea>
+              </div>
+              <div class="planner-day" data-image="./assets/images/planner/day3.jpg">
+                <h4>Day 3</h4>
+                <div class="planner-hover-image"></div>
+                <textarea placeholder="Plan your activities for Day 3..."></textarea>
+              </div>
+              <div class="planner-day" data-image="./assets/images/planner/day4.jpg">
+                <h4>Day 4</h4>
+                <div class="planner-hover-image"></div>
+                <textarea placeholder="Plan your activities for Day 4..."></textarea>
+              </div>
+              <div class="planner-day" data-image="./assets/images/planner/day5.jpg">
+                <h4>Day 5</h4>
+                <div class="planner-hover-image"></div>
+                <textarea placeholder="Plan your activities for Day 5..."></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #TRAVEL GALLERY
+      -->
+      <section class="travel-gallery" id="gallery">
+        <div class="container">
+          <p class="section-subtitle">Memories</p>
+          <h2 class="h2 section-title">Travel Gallery</h2>
+          
+          <div class="gallery-grid">
+            <div class="gallery-item" data-image="assets/images/gallery-1.jpg">
+              <img src="assets/images/gallery-1.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery-item" data-image="assets/images/gallery-2.jpg">
+              <img src="assets/images/gallery-2.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery-item" data-image="assets/images/gallery-3.jpg">
+              <img src="assets/images/gallery-3.jpg" alt="Gallery Image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #BUDGET TRACKER
+      -->
+      <section class="budget-tracker" id="budget">
+        <div class="container">
+          <p class="section-subtitle">Track Expenses</p>
+          <h2 class="h2 section-title">Vacation Budget</h2>
+          
+          <div class="budget-container">
+            <div class="budget-input">
+              <input type="text" placeholder="Expense Description" aria-label="Expense description">
+              <input type="number" placeholder="Amount" aria-label="Expense amount">
+              <select aria-label="Expense category">
+                <option value="accommodation">Accommodation</option>
+                <option value="food">Food</option>
+                <option value="transport">Transport</option>
+                <option value="activities">Activities</option>
+              </select>
+              <button class="btn btn-primary">Add Expense</button>
+            </div>
+            <div class="budget-summary">
+              <h3>Total Budget: $<span id="total-budget">0</span></h3>
+              <div class="budget-breakdown">
+                <!-- Budget breakdown will be populated by JavaScript -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #LANGUAGE CHEAT SHEET
+      -->
+      <section class="language-cheatsheet" id="language">
+        <div class="container">
+          <p class="section-subtitle">Learn Local Phrases</p>
+          <h2 class="h2 section-title">Language Cheat Sheet</h2>
+          
+          <div class="language-container">
+            <select id="language-select" aria-label="Select language">
+              <option value="french">French</option>
+              <option value="spanish">Spanish</option>
+              <option value="japanese">Japanese</option>
+              <option value="italian">Italian</option>
+            </select>
+            
+            <div class="phrases-container">
+              <div class="phrase-card">
+                <h4>Hello</h4>
+                <p class="translation">Bonjour</p>
+                <p class="pronunciation">/bohn-ZHOOR/</p>
+              </div>
+              <div class="phrase-card">
+                <h4>Thank you</h4>
+                <p class="translation">Merci</p>
+                <p class="pronunciation">/mehr-SEE/</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #ITINERARY BOARD
+      -->
+      <section class="itinerary-board" id="itinerary">
+        <div class="container">
+          <p class="section-subtitle">Plan Your Days</p>
+          <h2 class="h2 section-title">Interactive Itinerary</h2>
+          
+          <div class="itinerary-container">
+            <div class="day-plans" id="sortable">
+              <div class="day-plan" draggable="true">
+                <h4>Day 1</h4>
+                <p>Morning: City Tour</p>
+                <p>Afternoon: Museum Visit</p>
+                <p>Evening: Local Dinner</p>
+              </div>
+              <div class="day-plan" draggable="true">
+                <h4>Day 2</h4>
+                <p>Morning: Beach Time</p>
+                <p>Afternoon: Shopping</p>
+                <p>Evening: Sunset Cruise</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #AIRPORT NAVIGATION
+      -->
+      <section class="airport-navigation" id="airport">
+        <div class="container">
+          <p class="section-subtitle">Find Your Way</p>
+          <h2 class="h2 section-title">Airport Navigation</h2>
+          
+          <div class="airport-container">
+            <div class="gate-filter">
+              <input type="text" placeholder="Search Gate" aria-label="Search gate number">
+              <select aria-label="Select terminal">
+                <option value="all">All Terminals</option>
+                <option value="t1">Terminal 1</option>
+                <option value="t2">Terminal 2</option>
+              </select>
+            </div>
+            
+            <div class="terminals-grid">
+              <div class="terminal-card" data-terminal="t1">
+                <img src="./assets/images/airport/terminal1.jpg" alt="Terminal 1" class="terminal-image">
+                <h3>Terminal 1</h3>
+                <div class="gates-container">
+                  <div class="gate-item" data-gate="a1">
+                    <img src="./assets/images/airport/gate_a1.jpg" alt="Gate A1" class="gate-image">
+                    <div class="gate-info">
+                      <h4>Gate A1</h4>
+                      <span class="status boarding">Boarding</span>
+                    </div>
+                  </div>
+                  <div class="gate-item" data-gate="a2">
+                    <img src="./assets/images/airport/gate_a2.jpg" alt="Gate A2" class="gate-image">
+                    <div class="gate-info">
+                      <h4>Gate A2</h4>
+                      <span class="status delayed">Delayed</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="terminal-card" data-terminal="t2">
+                <img src="./assets/images/airport/terminal2.jpg" alt="Terminal 2" class="terminal-image">
+                <h3>Terminal 2</h3>
+                <div class="gates-container">
+                  <div class="gate-item" data-gate="b1">
+                    <img src="./assets/images/airport/gate_b1.jpg" alt="Gate B1" class="gate-image">
+                    <div class="gate-info">
+                      <h4>Gate B1</h4>
+                      <span class="status ontime">On Time</span>
+                    </div>
+                  </div>
+                  <div class="gate-item" data-gate="b2">
+                    <img src="./assets/images/airport/gate_b2.jpg" alt="Gate B2" class="gate-image">
+                    <div class="gate-info">
+                      <h4>Gate B2</h4>
+                      <span class="status cancelled">Cancelled</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 
+        - #MOODBOARD BUILDER
+      -->
+      <section class="moodboard-builder" id="moodboard">
+        <div class="container">
+          <p class="section-subtitle">Create Your Vision</p>
+          <h2 class="h2 section-title">Trip Moodboard</h2>
+          
+          <div class="moodboard-container">
+            <div class="sticker-palette">
+              <div class="sticker" draggable="true">🏖️</div>
+              <div class="sticker" draggable="true">🗼</div>
+              <div class="sticker" draggable="true">🍜</div>
+              <div class="sticker" draggable="true">🎡</div>
+              <!-- Image stickers -->
+              <img src="./assets/images/moodboard/beach.png" alt="Beach Sticker" class="sticker" draggable="true" />
+              <img src="./assets/images/moodboard/mountain.png" alt="Mountain Sticker" class="sticker" draggable="true" />
+              <img src="./assets/images/moodboard/city.png" alt="City Sticker" class="sticker" draggable="true" />
+              <img src="./assets/images/moodboard/food.png" alt="Food Sticker" class="sticker" draggable="true" />
+              <img src="./assets/images/moodboard/adventure.png" alt="Adventure Sticker" class="sticker" draggable="true" />
+            </div>
+            <div class="moodboard-canvas">
+              <!-- Stickers will be placed here -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
+            at
+            perferendis, pretium, aenean aut ultrices.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>3146 Koontz, California</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 Hackathon. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+</body>
+
+</html>
